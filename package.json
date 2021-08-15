@@ -2,9 +2,18 @@
   "name": "jest-another-rpg",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/lucawic/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/lucawic/jest-another-RPG#readme",
-  "devDependencies": {
-    "jest": "^27.0.6"
-  }
+  "homepage": "https://github.com/lucawic/jest-another-RPG#readme"
 }
